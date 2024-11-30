@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Learning</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="bg-white top-0 sticky border-b shadow z-50">
+      <nav
+        class="text-slate-900 container mx-auto py-4 flex justify-center md:justify-between items-center"
+      >
+        <a href="" class="mx-3 text-3xl text-slate-800 font-bold"
+          ><i class="fa-solid fa-book mr-3"></i>E-Learning</a
+        >
+        <div class="hidden md:flex">
+          <div>
+            <ul class="flex font-semibold">
+              <li
+                class="px-7 py-1 text-slate-800 hover:text-gray-500 text-lg font-medium"
+              >
+                <a href="#home" class="font-semibold">Home</a>
+              </li>
+              <li
+                class="px-7 py-1 text-slate-800 hover:text-gray-500 text-lg font-medium"
+              >
+                <a href="#about" class="font-semibold">About</a>
+              </li>
+              <li
+                class="px-7 py-1 text-slate-800 hover:text-gray-500 text-lg font-medium"
+              >
+                <a href="#services" class="font-semibold">Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hidden md:flex gap-3">
+          <a
+            href=""
+            class="py-2 px-4 bg-transparent border-2 text-blue-700 border-blue-700 rounded-lg font-semibold shadow-lg"
+            >Sign up</a
+          >
+          <a
+            href=""
+            class="py-2 px-4 text-white bg-blue-700 rounded-lg font-semibold shadow-lg"
+            >Get it Now</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="relative bg-center">
+      <div class="container relative mx-auto h-screen flex items-center p-3">
+        <div class="mx-auto md:mx-10 md:flex flex-row-reverse justify-between">
+          <div class="w-full md:w-1/3 flex justify-center md:justify-normal">
+            <img
+              src="img/hero-img-1-2.png"
+              alt=""
+              class="object-contain w-48 md:w-3/4"
+            />
+          </div>
+          <div class="w-full md:w-2/3">
+            <div class="flex gap-5 items-center mb-3 md:w-3/4">
+              <h3
+                class="text-5xl text-center md:text-start md:text-6xl font-bold mb-5"
+              >
+                E-Learning Platform Terbaik
+              </h3>
+            </div>
+            <div class="w-full md:w-3/4 mb-5">
+              <p class="text-base md:text-xl mb-8">
+                Solusi modern untuk pembelajaran teknologi. Dengan akses ke
+                materi digital kapan saja dan di mana saja, siswa dapat
+                mempelajari keterampilan terbaru dengan fleksibilitas dan
+                kemudahan yang tak tertandingi.
+              </p>
+              <a
+                href="#services"
+                class="py-3 px-5 text-white bg-blue-700 rounded-lg font-semibold shadow-lg hover:bg-blue-800 hover:shadow-none"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="bg-gray-200 py-20 w-full">
+      <div class="container mx-auto">
+        <h3 class="text-5xl font-bold text-center mb-8">About</h3>
+        <div class="grid md:grid-cols-3 gap-8 mx-3">
+          <div
+            class="flex space-x-5 bg-white py-8 px-8 rounded-xl items-start border border-slate-300"
+          >
+            <i class="fa-solid fa-bullseye text-8xl"></i>
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Misi Kami</h4>
+              <p class="text-gray-500 mb-5 jus">
+                Kami berkomitmen untuk menyediakan akses pembelajaran teknologi
+                yang berkualitas tinggi kepada semua orang, di mana saja dan
+                kapan saja.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex space-x-5 bg-white py-8 px-8 rounded-xl items-start border border-slate-300"
+          >
+            <!-- <img src="https://placehold.co/100" alt="" /> -->
+            <i class="fa-regular fa-star text-8xl"></i>
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Visi Kami</h4>
+              <p class="text-gray-500 mb-5">
+                Menjadi platform e-learning terdepan yang membantu siswa
+                menguasai keterampilan terbaru dengan fleksibilitas dan
+                kemudahan.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex space-x-5 bg-white py-8 px-8 rounded-xl items-start border border-slate-300"
+          >
+            <!-- <img src="https://placehold.co/100" alt="" /> -->
+            <i class="fa-solid fa-chart-line text-8xl"></i>
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Keunggulan Kami.</h4>
+              <p class="text-gray-500 mb-5">
+                Kami menawarkan berbagai fitur unggulan seperti materi yang
+                selalu diperbarui, akses 24/7, dan dukungan dari para ahli di
+                bidangnya.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="services" class="text-white bg-gray-200 pb-20">
+      <div class="bg-blue-700 py-10 rounded-3xl mx-3">
+        <div class="container mx-auto">
+          <div class="w-3/4 md:w-1/2 mx-auto">
+            <h3 class="text-5xl font-bold text-center mb-3">Services</h3>
+            <p class="text-center mb-8 text-lg">
+              Kami menawarkan berbagai kursus yang dirancang untuk membantu
+              siswa mengembangkan keterampilan yang dibutuhkan di dunia kerja.
+            </p>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5 mx-3">
+            <div class="bg-gray-200 py-8 px-8 rounded-xl">
+              <i
+                class="fa-solid fa-computer text-slate-950 text-5xl md:text-8xl mb-3"
+              ></i>
+              <div>
+                <h4 class="text-xl md:text-2xl font-bold mb-5 text-slate-950">
+                  Kelas IT
+                </h4>
+                <p class="text-gray-500 mb-5 text-sm md:text-base">
+                  Kami menawarkan berbagai kursus IT yang dirancang untuk
+                  membantu siswa mengembangkan keterampilan yang dibutuhkan di
+                  dunia kerja.
+                </p>
+                <a
+                  href=""
+                  class="hover:text-gray-500 text-black hover:underline"
+                  >See More &raquo;</a
+                >
+              </div>
+            </div>
+
+            <div class="bg-gray-200 py-8 px-8 rounded-xl">
+              <!-- <img src="https://placehold.co/100" alt="" /> -->
+              <i
+                class="fa-solid fa-business-time text-5xl md:text-8xl text-slate-950 mb-3"
+              ></i>
+              <div>
+                <h4 class="text-xl md:text-2xl font-bold mb-5 text-slate-950">
+                  Kelas Bisnis
+                </h4>
+                <p class="text-gray-500 mb-5 text-sm md:text-base">
+                  Kami menyediakan kursus bisnis yang mencakup manajemen,
+                  pemasaran, dan kewirausahaan untuk membantu siswa
+                  mengembangkan keterampilan bisnis yang penting.
+                </p>
+                <a
+                  href=""
+                  class="hover:text-gray-500 text-slate-950 hover:underline"
+                  >See More &raquo;</a
+                >
+              </div>
+            </div>
+
+            <div class="bg-gray-200 py-8 px-8 rounded-xl">
+              <!-- <img src="https://placehold.co/100" alt="" /> -->
+              <i
+                class="fa-solid fa-pen-ruler text-5xl md:text-8xl mb-3 text-black"
+              ></i>
+              <div>
+                <h4 class="text-xl md:text-2xl font-bold mb-5 text-black">
+                  Kelas Desain
+                </h4>
+                <p class="text-gray-500 mb-5 text-sm md:text-base">
+                  Kami menawarkan kursus desain grafis, desain UI/UX, dan desain
+                  produk untuk membantu siswa mengembangkan keterampilan kreatif
+                  mereka.
+                </p>
+                <a
+                  href=""
+                  class="hover:text-gray-500 text-black hover:underline"
+                  >See More &raquo;</a
+                >
+              </div>
+            </div>
+
+            <div class="bg-gray-200 py-8 px-8 rounded-xl">
+              <!-- <img src="https://placehold.co/100" alt="" /> -->
+              <i
+                class="fa-solid fa-language text-5xl md:text-8xl mb-3 text-black"
+              ></i>
+              <div>
+                <h4 class="text-xl md:text-2xl font-bold mb-5 text-black">
+                  Kelas Bahasa.
+                </h4>
+                <p class="text-gray-500 mb-5 text-sm md:text-base">
+                  Kami menyediakan kursus bahasa asing seperti Inggris, Spanyol,
+                  dan Mandarin untuk membantu siswa menguasai bahasa baru.
+                </p>
+                <a
+                  href=""
+                  class="hover:text-gray-500 text-black hover:underline"
+                  >See More &raquo;</a
+                >
+              </div>
+            </div>
+
+            <div class="bg-gray-200 py-8 px-8 rounded-xl">
+              <i
+                class="fa-solid fa-camera text-5xl md:text-8xl mb-3 text-black"
+              ></i>
+              <div>
+                <h4 class="text-xl md:text-2xl font-bold mb-5 text-black">
+                  Kelas Fotografi
+                </h4>
+                <p class="text-gray-500 mb-5 text-sm md:text-base">
+                  Kami menyediakan kursus fotografi untuk membantu siswa
+                  mengembangkan keterampilan dalam mengambil dan mengedit foto.
+                </p>
+                <a
+                  href=""
+                  class="hover:text-gray-500 text-black hover:underline"
+                  >See More &raquo;</a
+                >
+              </div>
+            </div>
+
+            <div class="bg-gray-200 py-8 px-8 rounded-xl">
+              <i
+                class="fa-solid fa-bullhorn text-5xl md:text-8xl mb-3 text-black"
+              ></i>
+              <div>
+                <h4 class="text-xl md:text-2xl font-bold mb-5 text-black">
+                  Kelas Digital Marketing
+                </h4>
+                <p class="text-gray-500 mb-5 text-sm md:text-base">
+                  Kami menawarkan kursus digital marketing untuk membantu siswa
+                  mengembangkan strategi pemasaran online yang efektif.
+                </p>
+                <a
+                  href=""
+                  class="hover:text-gray-500 text-black hover:underline"
+                  >See More &raquo;</a
+                >
+              </div>
+            </div>
+
+            <div class="bg-gray-200 py-8 px-8 rounded-xl">
+              <i
+                class="fa-solid fa-video-camera text-5xl md:text-8xl mb-3 text-black"
+              ></i>
+              <div>
+                <h4 class="text-xl md:text-2xl font-bold mb-5 text-black">
+                  Kelas Videografer
+                </h4>
+                <p class="text-gray-500 mb-5 text-sm md:text-base">
+                  Kami menyediakan kursus videografi untuk membantu siswa
+                  menguasai teknik pengambilan gambar dan produksi video.
+                </p>
+                <a
+                  href=""
+                  class="hover:text-gray-500 text-black hover:underline"
+                  >See More &raquo;</a
+                >
+              </div>
+            </div>
+
+            <div class="bg-gray-200 py-8 px-8 rounded-xl">
+              <i
+                class="fa-solid fa-circle-play text-5xl md:text-8xl mb-3 text-black"
+              ></i>
+              <div>
+                <h4 class="text-xl md:text-2xl font-bold mb-5 text-black">
+                  Kelas Video Editor
+                </h4>
+                <p class="text-gray-500 mb-5 text-sm md:text-base">
+                  Kami menyediakan kursus video editing untuk membantu siswa
+                  menguasai teknik pengeditan video profesional.
+                </p>
+                <a
+                  href=""
+                  class="hover:text-gray-500 text-black hover:underline"
+                  >See More &raquo;</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mx-auto pt-20 bg-blue-700 text-white">
+      <div class="container mx-auto">
+        <div class="flex flex-col space-x-10 items-start pb-10">
+          <!-- <img src="https://placehold.co/300" alt="" /> -->
+          <div class="grid grid-cols-1 mx-3 md:grid-cols-3 items-center gap-10">
+            <h3 class="text-5xl font-bold mb-5">
+              <i class="fa-solid fa-book mr-3"></i>E-Learning
+            </h3>
+            <p class="mb-5">
+              E-Learning Platform kami berkomitmen untuk menyediakan akses
+              pendidikan berkualitas tinggi kepada semua orang. Dengan berbagai
+              kursus yang tersedia, kami membantu siswa mengembangkan
+              keterampilan yang dibutuhkan untuk sukses di dunia kerja.
+            </p>
+            <p class="mb-5 pb-5">
+              Bergabunglah dengan komunitas kami dan mulailah perjalanan belajar
+              Anda hari ini. Kami menawarkan fleksibilitas belajar kapan saja
+              dan di mana saja, didukung oleh para ahli di bidangnya untuk
+              memastikan Anda mendapatkan pengalaman belajar terbaik.
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center justify-center border-t h-10 py-8">
+          <p>&copy; E-Learning | Moch Falih Fauzan | 2024</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
